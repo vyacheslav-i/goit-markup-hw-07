@@ -1,3 +1,4 @@
+
 $primary-font: 'Roboto',
 sans-serif;
 $secondary-font: 'Raleway',
@@ -23,3 +24,10 @@ $transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 $form-border-color: #21212133;
 $subscribe-border-color: #ffffff4d;
+
+body {
+    background-color: $primary-background-color;
+    color: $text-black-color;
+    font-family: $primary-font;
+    letter-spacing: 0.03em;
+}
