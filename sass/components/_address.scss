@@ -1,0 +1,32 @@
+.address {
+    margin-top: 20px;
+
+    &__list {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+    &__item {
+    margin-top: 9px;
+    font-style: normal;
+}
+
+    &__link {
+    display: inline-block;
+    font-style: normal;
+    color: var(--text-grey-rgba);
+
+    transition: color var(--transition);
+}
+
+    &__link--colored {
+    color: var(--text-white-color);
+    transition: color var(--transition);
+}
+
+    &__link:hover,
+    &__link:focus {
+    color: var(--accent-color);
+}
+}
