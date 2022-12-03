@@ -14,7 +14,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--text-white-color);
+    color: $text-white-color;
 
     margin-bottom: 20px;
 }
@@ -25,7 +25,7 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    color: var(--text-white-color);
+    color: $text-white-color;
 
     width: 358px;
     height: 50px;
@@ -33,7 +33,7 @@
     padding: 15px 16px;
     cursor: pointer;
 
-    border: 1px solid var(--subscribe-border-color);
+    border: 1px solid $subscribe-border-color;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: transparent;
@@ -43,13 +43,13 @@
 
     &__input:hover,
     &__input:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 }
 
     &__input::placeholder {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: 0.03em;
-    color: var(--footer-contacts-color);
+    color: $footer-contacts-color;
 }
 }

@@ -21,24 +21,24 @@
     letter-spacing: 0.02em;
     position: relative;
 
-    color: var(--text-black-color);
+    color: $text-black-color;
     padding-top: 32px;
     padding-bottom: 32px;
     display: block;
-    transition: color var(--transition);
+    transition: color $transition;
 }
 
     &__link {
-    color: var(--text-black-color);
+    color: $text-black-color;
 }
 
     &__link:hover,
     &__link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
     &__link--current {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
     &__link--current::after {
@@ -52,6 +52,6 @@
     height: 4px;
 
     border-radius: 2px;
-    background-color: var(--accent-color)
+    background-color: $accent-color;
 }
 }

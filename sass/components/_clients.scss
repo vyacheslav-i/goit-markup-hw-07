@@ -6,7 +6,7 @@
     line-height: 1.17;
     text-align: center;
 
-    color: var(--text-black-color);
+    color: $text-black-color;
 }
 
 .clients__list {
@@ -18,7 +18,7 @@
 }
 
 .clients__card {
-    flex-basis: calc(100% - 5 * var(--card-gap) / 6);
+    flex-basis: calc(100% - 5 * $card-gap / 6);
 }
 
 .clients__link {
@@ -30,7 +30,7 @@
     color: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    transition: color var(--transition), border-color var(--transition);
+    transition: color $transition, border-color $transition;
 }
 
 .clients__icon {
@@ -39,6 +39,6 @@
 
 .clients__link:hover,
 .clients__link:focus {
-    color: var(--accent-color);
-    border-color: var(--accent-color);
+    color: $accent-color;
+    border-color: $accent-color;
 }

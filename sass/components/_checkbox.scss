@@ -9,9 +9,9 @@
 }
 
 .checkbox__icon {
-    fill: var(--text-white-color);
+    fill: $text-white-color;
     background-color: transparent;
-    border: 2px solid var(--text-black-color);
+    border: 2px solid $text-black-color;
     border-radius: 2px;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -19,12 +19,12 @@
 }
 
 .checkbox:focus+.checkbox__icon {
-    outline: 2px solid var(--text-black-color);
+    outline: 2px solid $text-black-color;
     outline-offset: 2px;
 }
 
 .checkbox:checked+.checkbox__icon {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     border-color: transparent;
     background-origin: content-box;
     outline-color: transparent;
@@ -35,5 +35,5 @@
 }
 
 .form__agree--link {
-    color: var(--accent-color);
+    color: $accent-color;
 }

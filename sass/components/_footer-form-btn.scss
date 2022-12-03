@@ -12,9 +12,9 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    color: var(--text-white-color);
+    color: $text-white-color;
 
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: transparent;
@@ -25,10 +25,10 @@
 
     &:hover,
     &:focus {
-    background-color: var(--order-button-background-color);
+    background-color: $order-button-background-color;
 }
 
     &--icon {
-    fill: var(--text-white-color);
+    fill: $text-white-color;
 }
 }

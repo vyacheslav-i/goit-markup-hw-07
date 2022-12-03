@@ -3,7 +3,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-    background-color: var(--secondary-background-color);
+    background-color: $secondary-background-color;
 
 
     &__container {
@@ -13,13 +13,13 @@
 }
 
     &__logo {
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
 
-    color: var(--text-white-color);
+    color: $text-white-color;
     display: block;
 }
 }

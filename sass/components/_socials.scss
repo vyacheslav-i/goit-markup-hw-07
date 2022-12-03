@@ -16,7 +16,7 @@
     background-color: #fff;
     color: rgba(175, 177, 184, 1);
     border-radius: 50%;
-    transition: color var(--transition), background-color var(--transition);
+    transition: color $transition, background-color $transition;
 }
 
     &__icon {
@@ -26,6 +26,6 @@
     &__link:hover,
     &__link:focus {
     color: rgba(255, 255, 255, 1);
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 }
